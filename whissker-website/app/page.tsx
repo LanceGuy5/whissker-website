@@ -1,4 +1,4 @@
-import Image from "next/image";
+/*import Image from "next/image";
 
 export default function Home() {
   return (
@@ -39,4 +39,76 @@ export default function Home() {
 
   );
 
+}
+
+
+
+*/
+
+
+
+import Image from "next/image";
+
+export default function Home() {
+  return (
+
+<body>
+
+    <head>
+      <title>Whissker</title>  
+    </head>
+      
+    <header>
+        <div className="title">
+            <h1>Whissker</h1>
+            
+        </div>
+        <nav>
+            <ul className="flex min-h-screen flex-col items-center justify-between p-24">
+                <li><a href="#gigs">Gigs</a></li>
+                <li><a href="#merch">Merch</a></li>
+                <li><a href="#pictures">Pictures</a></li>
+                <li><a href="#calendar">Calendar</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div className="logo">
+          <Image src="/whissker-logo.png" width={563} height={352} alt={"Whissker Logo"}/>
+        </div>
+    </header>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+
+     
+        <section id="gigs">
+            <h2>Upcoming Gigs</h2>
+            <p>Stay tuned for our upcoming gigs!</p>
+
+        </section> 
+        <section id="merch">
+            <h2>Merchandise</h2>
+            <p>Check out our latest merch!</p>
+         
+        </section>
+        <section id="pictures">
+            <h2>Pictures</h2>
+            <p>Explore our gallery!</p>
+   
+        </section>
+        <section id="calendar">
+            <h2>Calendar</h2>
+            <p>Find our event schedule here.</p>
+      
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us!</p>
+          
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Whissker Band. All rights reserved.</p>
+    </footer>
+</body>
+
+  )
 }
