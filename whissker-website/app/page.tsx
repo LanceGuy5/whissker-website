@@ -60,8 +60,7 @@ export default function Home() {
       
     <header>
         <div className="title">
-            <h1>Whissker</h1>
-            
+            <h1 className="flex min-h-screen flex-col items-center" >Whissker</h1>
         </div>
         <nav>
             <ul className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -72,39 +71,77 @@ export default function Home() {
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div className="logo">
-          <Image src="/whissker-logo.png" width={563} height={352} alt={"Whissker Logo"}/>
+        <div className="picture"> 
+            <image> <img src="/whole band color 2.JPG" width={7*220.8} height={7*165.6} alt="Whissker" /></image>
         </div>
+        
+
+
     </header>
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
-     
+
+    <main>
+        
         <section id="gigs">
-            <h2>Upcoming Gigs</h2>
-            <p>Stay tuned for our upcoming gigs!</p>
-
+            <div className="pictureR">
+              <img src="/jack.JPG" width={3*136.6} height={3*204.8} alt="Jack"/>
+            </div>
+            <div className="textR"> 
+              <h2>Upcoming Gigs</h2>
+              <p>July 20th - King Tut's Wah Wah Hut</p>
+              <p>Purchase your tickets in the ticket link below and stay tuned for more upcoming gigs!</p>
+              <a href="https://linktr.ee/whissker?fbclid=PAZXh0bgNhZW0CMTEAAaba_qccegyTDrtW5YS-tyWEjoQv4Adkn34cWbnUZnQlJt7mn5QAYyK5siE_aem_MW5vdJjnvXyHMlvQ5MeLYg">
+              Linktree</a>
+            </div>
         </section> 
+
         <section id="merch">
-            <h2>Merchandise</h2>
-            <p>Check out our latest merch!</p>
-         
+            <div className="pictureL">
+              <img src="/josh.JPG" width={3*156.6} height={3*204.8} alt="Josh" />
+            </div>
+            <div className="textL">
+              <h2>Merchandise</h2>
+              <p>Check out our latest merch!</p>
+            </div>
         </section>
+
         <section id="pictures">
-            <h2>Pictures</h2>
-            <p>Explore our gallery!</p>
-   
+            <div className="pictureR">
+              <img src="/scott.JPG" width={3*204.8} height={3*136.6} alt="Scott" />
+            </div>
+            <div className="textR">
+              <h2>Pictures</h2>
+              <p>Explore our gallery!</p>
+            </div>
         </section>
+
         <section id="calendar">
-            <h2>Calendar</h2>
-            <p>Find our event schedule here.</p>
-      
+            <div className="pictureL">
+              <img src="/paul.JPG" width={3*106.6} height={3*160.0} alt="Paul" />
+            </div>
+            <div className="textL">
+              <h2>Calendar</h2>
+              <p>Find our event schedule and ticket links here.</p>
+              <a href="https://linktr.ee/whissker?fbclid=PAZXh0bgNhZW0CMTEAAaba_qccegyTDrtW5YS-tyWEjoQv4Adkn34cWbnUZnQlJt7mn5QAYyK5siE_aem_MW5vdJjnvXyHMlvQ5MeLYg">
+              Linktree</a>
+            </div>
         </section>
+
         <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Get in touch with us!</p>
-          
+            <div className="pictureR">
+              <img src="/whole band.JPG" width={3*204.8} height={3*136.6} alt="Whissker" />
+            </div>
+            <div className="textR">
+              <h2>Contact Us</h2>
+              <p>Get in touch with us at:</p>
+              <p>Email: whisskerband@gmail.com</p>
+              <p>Instagram: @whissker_band</p>
+              <p>Facebook: @whissker_band</p>
+            </div>
         </section>
+   
     </main>
+    
     <footer>
         <p>&copy; 2024 Whissker Band. All rights reserved.</p>
     </footer>
