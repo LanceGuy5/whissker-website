@@ -49,7 +49,7 @@ header {
   text-align: center;
   /*position: fixed;*/
   width: 100%;
-  background-image: url("/whissker-logo.png");
+  /*background-image: url("/whissker-logo.png");*/
   background-repeat: no-repeat;
   background-position: top left;
   background-size: 8% 8%;
@@ -60,12 +60,18 @@ header .title {
 }
 
 header .title h1 {
-  margin: 10;
-  font-size: 2.5em;
+  margin: 0;
+  font-size: 5.5em;
+}
+
+header .title img {
+  vertical-align: middle;
+  margin-left: 10px;
+  display: inline;
 }
 
 nav {
-  text-align: center;
+  
   margin-top: 10px;
 }
 
@@ -89,6 +95,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+
 header .picture {
   opacity: 80%;
   width: max-content;
@@ -101,23 +108,25 @@ main {
 }
 
 main .pictureL {
-  opacity: 50%;
+  opacity: 70%;
   text-align: left;
   float: left;
   margin-bottom: auto;
   margin-top: auto;
+  margin-right: 20px;
 }
 
 main .pictureR {
-  opacity: 50%;
+  opacity: 70%;
   text-align: right;
   float: right;
   margin-bottom: auto;
   margin-top: auto;
+  margin-left: 20px;
 }
 
 main section {
-  margin-bottom: 500px;
+  margin-bottom: auto;
   margin-top: auto;
   background-color:transparent;
   color: white;
@@ -125,10 +134,24 @@ main section {
 
 main .textL {
   text-align: left;
+  border:2px solid grey;
+  background-color: grey;
+  fill-opacity: 80%;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 10px;
+  margin-right: 25%;
 }
 
 main .textR {
   text-align: right;
+  border:2px solid grey;
+  background-color: grey;
+  fill-opacity: 80%;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 10px;
+  margin-left: 25%;
 }
 
 main h2 {
