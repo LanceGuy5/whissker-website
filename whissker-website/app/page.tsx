@@ -76,11 +76,11 @@ export default function Home() {
         </div>
         <nav>
             <ul className="flex min-h-screen flex-col items-center justify-between p-24">
-                <li><a href="#bio">The Band</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#gigs">Gigs/Tickets</a></li>
-                <li><a href="#merch">Merch</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#bio">THE BAND</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#gigs">GIGS/TICKETS</a></li>
+                <li><a href="#merch">MERCH</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
             
         </nav>
@@ -92,11 +92,11 @@ export default function Home() {
 
         <section id="bio">
             <div className="pictureL">
-              <img src="/paul.JPG" width={3*106.6} height={3*160.0} alt="Paul" />
+              <img src="/paul.JPG" width={3*106.6} height={3*160.0} alt="Paul" className="curve"/>
             </div>
             <div className="textL">
-              <h2>The Band</h2>
-              <p>Glasgow-based indie/alt-rock band with diverse musical influences ranging from classic rock bands like Led Zeppelin to alternative to classic Brit-pop like the Killers to modern heavy metal, shoe-gaze, and many more. The result of this blend of various genres is a unique and experimental sound audiences can sing, dance, mosh, and cry along to. Come to one of our shows to experience this elctrifying blah blah blah</p>
+              <h2>THE BAND</h2>
+              <p>Glasgow-based indie/alt-rock band with diverse musical influences that result in a unique and somewhat experimental sound with an electrifying live atmosphere. Be sure to come to one of our gigs to see one of Glasgow's most creative up-and-coming bands!</p>
               <nav>
               <ul className="home">
                 <li><a href="#home">Back to Top</a></li>
@@ -111,10 +111,10 @@ export default function Home() {
 
         <section id="news">
             <div className="pictureR">
-              <img src="/scott.JPG" width={3*204.8} height={3*136.6} alt="Scott" />
+              <img src="/scott.JPG" width={3*204.8} height={3*136.6} alt="Scott" className="curve"/>
             </div>
             <div className="textR">
-              <h2>News</h2>
+              <h2>NEWS</h2>
               <p>Medium sized things coming... Be sure to be at our next gig at SWG3 Poetry Club to be the first to hear...</p>
               <nav>
               <ul className="home">
@@ -126,15 +126,16 @@ export default function Home() {
         
         <section id="gigs">
             <div className="pictureL">
-              <img src="/jack.JPG" width={3*136.6} height={3*204.8} alt="Jack"/>
+              <img src="/jack.JPG" width={3*136.6} height={3*204.8} alt="Jack" className="curve"/>
             </div>
             <div className="textL"> 
-              <h2>Upcoming Gigs</h2>
+              <h2>UPCOMING GIGS</h2>
               <p>September 6th - SWG3 Poetry Club ***ABOVE AVERAGE SIZED ANNOUCEMENT COMING***</p>
+              <p>October 3rd - Bungalow (Paisley)</p>
               <p>Purchase your tickets using the link below and stay tuned for more upcoming gigs!</p>
               <a href="https://linktr.ee/whissker?fbclid=PAZXh0bgNhZW0CMTEAAaba_qccegyTDrtW5YS-tyWEjoQv4Adkn34cWbnUZnQlJt7mn5QAYyK5siE_aem_MW5vdJjnvXyHMlvQ5MeLYg">
               Linktree</a>
-              <h2>Previous Gigs of Note</h2>
+              <h2>PREVIOUS GIGS OF NOTE</h2>
               <p>April 4th - McChuilles (HEADLINED)</p>
               <p>July 20th - King Tut's Wah Wah Hut</p>
               <nav>
@@ -147,10 +148,10 @@ export default function Home() {
 
         <section id="merch">
             <div className="pictureR">
-              <img src="/josh.JPG" width={3*156.6} height={3*204.8} alt="Josh" />
+              <img src="/josh.JPG" width={3*156.6} height={3*204.8} alt="Josh" className="curve"/>
             </div>
             <div className="textR">
-              <h2>Merchandise</h2>
+              <h2>MERCHANDISE</h2>
               <p>Merch coming soon!</p>
               <p>(May or may not be our own brand of unisex underwear...)</p>
               <nav>
@@ -163,14 +164,14 @@ export default function Home() {
 
         <section id="contact">
             <div className="pictureL">
-              <img src="/whole band copy.JPG" width={3*138.4} height={3*136.6} alt="Whissker" />
+              <img src="/whole band copy.JPG" width={3*138.4} height={3*136.6} alt="Whissker" className="curve"/>
             </div>
             <div className="textL">
-              <h2>Contact Us</h2>
-              <p>Get in touch with us at:</p>
-              <p>Email: whisskerband@gmail.com</p>
-              <p>And be sure to follow us at:</p>
-              <a href="https://www.instagram.com/whissker_band?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram: @whissker_band</a>
+              <h2>CONTACTS</h2>
+              <p>Get in touch with us at</p>
+              <p>Email: <a href="mailto:whisskerband@gmail.com">whisskerband@gmail.com</a></p>
+              <p>And be sure to follow us on all our social media platforms</p>
+              <p>Instagram: <a href="https://www.instagram.com/whissker_band?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@whissker_band</a></p>
               <p>Facebook: @whissker_band</p>
               <nav>
               <ul className="home">
