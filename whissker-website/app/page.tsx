@@ -54,21 +54,18 @@ import Image from "next/image";
 export default function Home() {
   return (
 
-<body>
-    
-      <head>
-      
-        <title>Whissker</title> 
-      </head>
-    
-      
-    <header>
-      
+<html>
 
+<head>
+  <title>Whissker</title>
+</head> 
+  
+<body>
+     
+  <header>
     
-        <div className="title">
-          <section id = "home">
-          </section>
+    <div className="title">
+      <section id = "home"></section>
             <h1 className="flex min-h-screen flex-col items-center" >WHISSKER
             <img src="/whissker-logo.jpeg" alt="Logo" width={2*56.3} height={2*35.2}>
             </img>
@@ -85,8 +82,7 @@ export default function Home() {
             
         </nav>
 
-    </header>
-
+</header>
 
     <main>
 
@@ -103,9 +99,7 @@ export default function Home() {
               </ul>      
               </nav>
                      
-            </div>
-            
-              
+            </div>   
           
         </section>
 
@@ -186,7 +180,10 @@ export default function Home() {
     <footer>
         <p>&copy; 2024 Whissker Band. All rights reserved.</p>
     </footer>
+
 </body>
+
+</html>
 
   )
 }
