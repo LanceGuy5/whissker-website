@@ -107,6 +107,16 @@ main {
   /*background-color: black;*/
 }
 
+main a {
+  text-decoration: none;
+  color: white;
+}
+
+main a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
 main .pictureL {
   opacity: 70%;
   text-align: left;
@@ -123,6 +133,10 @@ main .pictureR {
   margin-bottom: auto;
   margin-top: auto;
   margin-left: 20px;
+}
+
+main .curve {
+  border-radius: 20px;
 }
 
 main section {
