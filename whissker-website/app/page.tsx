@@ -67,8 +67,8 @@ export default function Home() {
     <div className="title">
       <section id = "home"></section>
             <h1 className="flex min-h-screen flex-col items-center" >WHISSKER
-            <img src="/whissker-logo.jpeg" alt="Logo" width={2*56.3} height={2*35.2}>
-            </img>
+            <Image src="/whissker-logo.jpeg" alt="Logo" width={2*56.3} height={2*35.2}>
+            </Image>
             </h1>
         </div>
         <nav>
@@ -88,7 +88,7 @@ export default function Home() {
 
         <section id="bio">
             <div className="pictureL">
-              <img src="/paul.JPG" width={3*106.6} height={3*160.0} alt="Paul" className="curve"/>
+              <Image src="/paul.JPG" width={3*106.6} height={3*160.0} alt="Paul" className="curve"/>
             </div>
             <div className="textL">
               <h2>THE BAND</h2>
@@ -105,7 +105,7 @@ export default function Home() {
 
         <section id="news">
             <div className="pictureR">
-              <img src="/scott.JPG" width={3*204.8} height={3*136.6} alt="Scott" className="curve"/>
+              <Image src="/scott.JPG" width={3*204.8} height={3*136.6} alt="Scott" className="curve"/>
             </div>
             <div className="textR">
               <h2>NEWS</h2>
@@ -120,7 +120,7 @@ export default function Home() {
         
         <section id="gigs">
             <div className="pictureL">
-              <img src="/jack.JPG" width={3*136.6} height={3*204.8} alt="Jack" className="curve"/>
+              <Image src="/jack.JPG" width={3*136.6} height={3*204.8} alt="Jack" className="curve"/>
             </div>
             <div className="textL"> 
               <h2>UPCOMING GIGS</h2>
@@ -142,7 +142,7 @@ export default function Home() {
 
         <section id="merch">
             <div className="pictureR">
-              <img src="/josh.JPG" width={3*156.6} height={3*204.8} alt="Josh" className="curve"/>
+              <Image src="/josh.JPG" width={3*156.6} height={3*204.8} alt="Josh" className="curve"/>
             </div>
             <div className="textR">
               <h2>MERCHANDISE</h2>
@@ -158,7 +158,7 @@ export default function Home() {
 
         <section id="contact">
             <div className="pictureL">
-              <img src="/whole band copy.JPG" width={3*138.4} height={3*136.6} alt="Whissker" className="curve"/>
+              <Image src="/whole band copy.JPG" width={3*138.4} height={3*136.6} alt="Whissker" className="curve"/>
             </div>
             <div className="textL">
               <h2>CONTACTS</h2>
