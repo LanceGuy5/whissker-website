@@ -92,7 +92,7 @@ export default function Home() {
             </div>
             <div className="textL">
               <h2>THE BAND</h2>
-              <p>Glasgow-based indie/alt-rock band with diverse musical influences that result in a unique and somewhat experimental sound with an electrifying live atmosphere. Be sure to come to one of our gigs to see one of Glasgow's most creative up-and-coming bands!</p>
+              <p>Glasgow-based indie/alt-rock band with diverse musical influences that result in a unique and somewhat experimental sound with an electrifying live atmosphere. Be sure to come to one of our gigs to see one of Glasgows most creative up-and-coming bands!</p>
               <nav>
               <ul className="home">
                 <li><a href="#home">Back to Top</a></li>
@@ -131,7 +131,7 @@ export default function Home() {
               Linktree</a>
               <h2>PREVIOUS GIGS OF NOTE</h2>
               <p>April 4th - McChuilles (HEADLINED)</p>
-              <p>July 20th - King Tut's Wah Wah Hut</p>
+              <p>July 20th - King Tuts Wah Wah Hut</p>
               <nav>
               <ul className="home">
                 <li><a href="#home">Back to Top</a></li>
