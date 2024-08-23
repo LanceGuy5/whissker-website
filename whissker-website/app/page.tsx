@@ -1,138 +1,102 @@
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
+      <>
+        <Head>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta charSet="UTF-8" />
+          <meta name="description" content="Official website of the band Whissker" />
+          <meta name="mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+          <meta name="format-detection" content="telephone=no" />
 
-<html>
+          <title>Whissker</title>
+          <link rel="icon" href="/favicon.ico"/>
+        </Head> 
 
-<head>
-  <title>Whissker</title>
-</head> 
-  
-<body>
-     
-  <header>
-    
-    <div className="title">
-      <section id = "home"></section>
-            <h1 className="flex min-h-screen flex-col items-center" >WHISSKER
-            <Image src="/whissker-logo.jpeg" alt="Logo" width={2*56.3} height={2*35.2}>
-            </Image>
-            </h1>
-        </div>
-        <nav>
-            <ul className="flex min-h-screen flex-col items-center justify-between p-24">
-                <li><a href="#bio">THE BAND</a></li>
-                <li><a href="#news">NEWS</a></li>
-                <li><a href="#gigs">GIGS/TICKETS</a></li>
-                <li><a href="#merch">MERCH</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-            
-        </nav>
+        <header className="flex flex-col items-center bg-black text-white">
+          <Header text="WHISSKER" />
+        </header>
 
-</header>
+          <main>
+                <div className="pictureL">
+                  <Image src="/home/paul.JPG" width={3*106.6} height={3*160.0} alt="Paul" className="curve"/>
+                </div>
+                <div className="textL">
+                  <p><br></br></p>
+                  <h2>
+                    <Link href="/meet-the-band" className="hover:no-underline text-sec-size">
+                      MEET THE BAND
+                    </Link>
+                  </h2>
+                  <p><br></br></p>
+                  <p></p>
+                  <p></p>
+                  <nav>
+                  </nav>    
+                </div>   
 
-    <main>
+                <div className="pictureR">
+                  <Image src="/home/scott.JPG" width={2.5*204.8} height={2.5*136.6} alt="Scott" className="curve"/>
+                </div>
+                <div className="textR">
+                  <p><br></br></p>
+                  <h2>
+                    <Link href="/news" className="hover:no-underline text-sec-size">
+                      NEWS
+                    </Link>
+                  </h2>
+                  <p><br></br></p>
+                  <nav>
+                  </nav>
+                </div>
 
-        <section id="bio">
-            <div className="pictureL">
-              <Image src="/paul.JPG" width={3*106.6} height={3*160.0} alt="Paul" className="curve"/>
-            </div>
-            <div className="textL">
-              <h2>THE BAND</h2>
-              <p>Glasgow-based indie/alt-rock band with diverse musical influences that result in a unique and somewhat experimental sound with an electrifying live atmosphere. Be sure to come to one of our gigs to see one of Glasgows most creative up-and-coming bands!</p>
-              <nav>
-              <ul className="home">
-                <li><a href="#home">Back to Top</a></li>
-              </ul>      
-              </nav>
-                     
-            </div>   
-          
-        </section>
+                <div className="pictureL">
+                  <Image src="/home/jack.JPG" width={2.5*136.6} height={2.5*204.8} alt="Jack" className="curve"/>
+                </div>
+                <div className="textL"> 
+                  <h2>
+                    <p><br></br></p>
+                    <Link href="/tickets" className="hover:no-underline text-sec-size">
+                      FIND TICKETS
+                    </Link>
+                    <p><br></br></p>
+                  </h2>
+                </div>
 
-        <section id="news">
-            <div className="pictureR">
-              <Image src="/scott.JPG" width={3*204.8} height={3*136.6} alt="Scott" className="curve"/>
-            </div>
-            <div className="textR">
-              <h2>NEWS</h2>
-              <p>Medium sized things coming... Be sure to be at our next gig at SWG3 Poetry Club to be the first to hear...</p>
-              <nav>
-              <ul className="home">
-                <li><a href="#home">Back to Top</a></li>
-              </ul>      
-              </nav>
-            </div>
-        </section>
-        
-        <section id="gigs">
-            <div className="pictureL">
-              <Image src="/jack.JPG" width={3*136.6} height={3*204.8} alt="Jack" className="curve"/>
-            </div>
-            <div className="textL"> 
-              <h2>UPCOMING GIGS</h2>
-              <p>September 6th - SWG3 Poetry Club ***ABOVE AVERAGE SIZED ANNOUCEMENT COMING***</p>
-              <p>October 3rd - Bungalow (Paisley)</p>
-              <p>Purchase your tickets using the link below and stay tuned for more upcoming gigs!</p>
-              <a href="https://linktr.ee/whissker?fbclid=PAZXh0bgNhZW0CMTEAAaba_qccegyTDrtW5YS-tyWEjoQv4Adkn34cWbnUZnQlJt7mn5QAYyK5siE_aem_MW5vdJjnvXyHMlvQ5MeLYg">
-              Linktree</a>
-              <h2>PREVIOUS GIGS OF NOTE</h2>
-              <p>April 4th - McChuilles (HEADLINED)</p>
-              <p>July 20th - King Tuts Wah Wah Hut</p>
-              <nav>
-              <ul className="home">
-                <li><a href="#home">Back to Top</a></li>
-              </ul>      
-              </nav>
-            </div>
-        </section> 
+                <div className="pictureR">
+                  <Image src="/home/josh.JPG" width={2.5*156.6} height={2.5*204.8} alt="Josh" className="curve"/>
+                </div>
+                <div className="textR">
+                  <h2>
+                    <p><br></br></p>
+                    <Link href="/gigs" className="hover:no-underline text-sec-size">
+                      GIGS
+                    </Link>
+                    <p><br></br></p>
+                  </h2>
+                </div>
 
-        <section id="merch">
-            <div className="pictureR">
-              <Image src="/josh.JPG" width={3*156.6} height={3*204.8} alt="Josh" className="curve"/>
-            </div>
-            <div className="textR">
-              <h2>MERCHANDISE</h2>
-              <p>Merch coming soon!</p>
-              <p>(May or may not be our own brand of unisex underwear...)</p>
-              <nav>
-              <ul className="home">
-                <li><a href="#home">Back to Top</a></li>
-              </ul>      
-              </nav>
-            </div>
-        </section>
-
-        <section id="contact">
-            <div className="pictureL">
-              <Image src="/whole band copy.JPG" width={3*138.4} height={3*136.6} alt="Whissker" className="curve"/>
-            </div>
-            <div className="textL">
-              <h2>CONTACTS</h2>
-              <p>Get in touch with us at</p>
-              <p>Email: <a href="mailto:whisskerband@gmail.com">whisskerband@gmail.com</a></p>
-              <p>And be sure to follow us on all our social media platforms</p>
-              <p>Instagram: <a href="https://www.instagram.com/whissker_band?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@whissker_band</a></p>
-              <p>Facebook: @whissker_band</p>
-              <nav>
-              <ul className="home">
-                <li><a href="#home">Back to Top</a></li>
-              </ul>      
-              </nav>
-            </div>
-        </section>
-   
-    </main>
-    
-    <footer>
-        <p>&copy; 2024 Whissker Band. All rights reserved.</p>
-    </footer>
-
-</body>
-
-</html>
-
+                <div className="pictureL">
+                  <Image src="/home/whole band copy.JPG" width={2.5*138.4} height={2.5*136.6} alt="Whissker" className="curve"/>
+                </div>
+                <div className="textL">
+                  <h2>
+                    <p><br></br></p>
+                    <Link href="/store" className="hover:no-underline text-sec-size">
+                      STORE
+                    </Link>
+                    <p><br></br></p>
+                  </h2>
+                </div>
+            <Footer />
+          </main>
+        </>
   )
 }
