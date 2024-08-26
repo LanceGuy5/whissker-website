@@ -12,8 +12,8 @@ const TicketsElement = (
         <div className="flex flex-row justify-between space-x-8 items-center w-full">
           <div className="flex flex-row items-center space-x-4">
             <Image 
-                src="/news/news-icon.png" 
-                className="mb-2 relative -top-2" 
+                src="/tickets/ticket-icon.png" 
+                className="mb-4 relative -top-2" 
                 alt="News" 
                 width={182*0.5} 
                 height={130*0.5} />
