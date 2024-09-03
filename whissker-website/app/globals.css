@@ -1,4 +1,4 @@
-/*@tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -16,14 +16,24 @@
   }
 }
 
+html {
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  padding: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  /* color: black; */
+  background: linear-gradient(to bottom, #000000 0%, #151515 85%);
+  background-size: cover;
+  background-color: #151515;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: visible;
 }
 
 @layer utilities {
@@ -32,22 +42,10 @@ body {
   }
 }
 
-*/
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  color: black;
-  background-color: black;
-}
-
 header {
-  /*background-color: black;*/
   color: #fff;
   padding: 0px 0;
   text-align: center;
-  /*position: fixed;*/
   width: 100%;
   /*background-image: url("/whissker-logo.png");*/
   background-repeat: no-repeat;
@@ -55,19 +53,14 @@ header {
   background-size: 8% 8%;
 }
 
-header .title {
-  text-align: center;
+header .link {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 150%;
 }
 
-header .title h1 {
-  margin: 0;
-  font-size: 5.5em;
-}
-
-header .title img {
-  vertical-align: middle;
-  margin-left: 10px;
-  display: inline;
+header .link:hover {
+  text-decoration: underline;
 }
 
 nav {
@@ -95,6 +88,24 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+main .list-element {
+  background-color: rgb(90, 90, 90);
+  fill-opacity: 80%;
+  padding: 30px;
+  margin: 100px;
+  border-radius: 10px;
+  border-color: rgb(100, 100, 100);
+  border-width: 6px;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  opacity: 100%;
+}
+
+/* main .list-element:hover {
+  opacity: 100%;
+  transition: opacity 100ms ease-in-out;
+} */
+
 
 header .picture {
   opacity: 80%;
@@ -118,21 +129,23 @@ main a:hover {
 }
 
 main .pictureL {
-  opacity: 70%;
+  opacity: 100%;
   text-align: left;
-  float: left;
+  /*float: left;*/
   margin-bottom: auto;
-  margin-top: auto;
-  margin-right: 20px;
+  margin-top: auto; /* Make auto for fixed */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main .pictureR {
-  opacity: 70%;
+  opacity: 100%;
   text-align: right;
-  float: right;
+  /*float: right;*/
   margin-bottom: auto;
-  margin-top: auto;
-  margin-left: 20px;
+  margin-top: auto; /* Make auto for fixed */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main .curve {
@@ -147,9 +160,10 @@ main section {
 }
 
 main .textL {
-  text-align: left;
-  border:2px solid grey;
-  background-color: grey;
+  text-align: center;
+  font-size: 1.3em;
+  /* border:2px solid grey; */
+  background-color: rgb(90, 90, 90);
   fill-opacity: 80%;
   padding: 30px;
   margin: 30px;
@@ -158,8 +172,9 @@ main .textL {
 }
 
 main .textR {
-  text-align: right;
-  border:2px solid grey;
+  text-align: center;
+  font-size: 1.3em;
+  /* border:2px solid grey; */
   background-color: grey;
   fill-opacity: 80%;
   padding: 50px;
@@ -174,21 +189,7 @@ main h2 {
   margin-bottom: 10px;
 }
 
-footer {
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 0;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
 @media (max-width: 768px) {
-  /*header .logo h1 {
-      font-size: 2em;
-  }*/
-
   nav ul li {
       display: block;
       margin: 10px 0;
