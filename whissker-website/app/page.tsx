@@ -25,14 +25,12 @@ export default function Home() {
         </header>
 
           <main>
-                <div className="pictureL">
-                  <Image src="/home/paul.JPG" width={3*106.6} height={3*160.0} alt="Paul" className="curve"/>
-                </div>
+                
                 <div className="textL">
                   <p><br></br></p>
                   <h2>
                     <Link href="/meet-the-band" className="hover:no-underline text-sec-size">
-                      MEET THE BAND
+                      THE BAND
                     </Link>
                   </h2>
                   <p><br></br></p>
@@ -42,9 +40,7 @@ export default function Home() {
                   </nav>    
                 </div>   
 
-                <div className="pictureR">
-                  <Image src="/home/scott.JPG" width={2.5*204.8} height={2.5*136.6} alt="Scott" className="curve"/>
-                </div>
+                
                 <div className="textR">
                   <p><br></br></p>
                   <h2>
@@ -57,35 +53,29 @@ export default function Home() {
                   </nav>
                 </div>
 
-                <div className="pictureL">
-                  <Image src="/home/jack.JPG" width={2.5*136.6} height={2.5*204.8} alt="Jack" className="curve"/>
-                </div>
+                
                 <div className="textL"> 
                   <h2>
                     <p><br></br></p>
                     <Link href="/tickets" className="hover:no-underline text-sec-size">
-                      FIND TICKETS
+                      GIGS/TICKETS
                     </Link>
                     <p><br></br></p>
                   </h2>
                 </div>
 
-                <div className="pictureR">
-                  <Image src="/home/josh.JPG" width={2.5*156.6} height={2.5*204.8} alt="Josh" className="curve"/>
-                </div>
+                
                 <div className="textR">
                   <h2>
                     <p><br></br></p>
-                    <Link href="/gigs" className="hover:no-underline text-sec-size">
-                      GIGS
+                    <Link href="/pics" className="hover:no-underline text-sec-size">
+                      PICTURES
                     </Link>
                     <p><br></br></p>
                   </h2>
                 </div>
 
-                <div className="pictureL">
-                  <Image src="/home/whole band copy.JPG" width={2.5*138.4} height={2.5*136.6} alt="Whissker" className="curve"/>
-                </div>
+                
                 <div className="textL">
                   <h2>
                     <p><br></br></p>

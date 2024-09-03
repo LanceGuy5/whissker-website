@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import BandElement from '@/components/BandElement';
 import Head from 'next/head';
 import React from 'react';
 
@@ -20,10 +21,14 @@ const MeetTheBand = () => {
       </Head> 
 
       <header className="flex flex-col items-center bg-black text-white">
-        <Header text="MEET THE BAND" />
+        <Header text="THE BAND" />
       </header>
 
       <main>
+        {/* All NewsElements go in here! */}
+        <div className="flex flex-col y-space-4">
+          <BandElement title="WHISSKER" text="Glasgow-based indie/sharp alt-rock band..." />
+        </div>
         <Footer />
       </main>
     </>

@@ -27,9 +27,7 @@ const News = () => {
       <main>
         {/* All NewsElements go in here! */}
         <div className="flex flex-col y-space-4">
-          <NewsElement title="Performance at Bungalow (Paisley)" date="October 3rd" text="We are performing..." />
-          <NewsElement title="Performance at King Tuts Wah Wah Hut" date="July 20th" text="We are performing at ...." />
-          <NewsElement title="Headliner at McChuilles" date="April 4th" text="We are performing at ...." />
+          <NewsElement title="Above average sized things coming!" date="September 6th" text="Be sure to be at our SWG3 gig this Friday to be the first to hear the news!" />
         </div>
 
         <Footer />
