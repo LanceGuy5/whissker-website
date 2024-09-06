@@ -28,10 +28,16 @@ const Pics = () => {
   
         <main>
           {/* All PicsElements go in here! */}
+
+          <div className="flex flex-col y-space-4">
+          <PicsElement title="Photo Gallery" text="Photos not yet included... Stay tuned..."/>
+        </div>
+
+          {/*
         <div className="flex flex-col y-space-4">
           <PicsElement title="Photo Gallery" text="Please enjoy these lovely pictures of the band. Credit to various photographers including:"/>
         </div>
-
+        
         <div className="items-center">
           <Image src="/home/paul.JPG" width={3*106.6} height={3*160.0} alt="Paul" className="curve"/>
         </div>
@@ -51,6 +57,7 @@ const Pics = () => {
         <div className="items-center">
           <Image src="/home/whole band copy.JPG" width={2.5*138.4} height={2.5*136.6} alt="Whissker" className="curve"/>
         </div>
+        */}
 
           <Footer />
         </main>

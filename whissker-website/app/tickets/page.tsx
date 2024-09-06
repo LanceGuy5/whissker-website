@@ -48,7 +48,7 @@ const Tickets = () => {
             <TicketsElement
             title="TBA"
             date="TBA"
-            details="More gigs to be announced soon..."/>
+            details="More gigs to be announced soon... Be sure to join our mailing list using the link above to be notified of any upcoming gigs!"/>
         </div>
 
         

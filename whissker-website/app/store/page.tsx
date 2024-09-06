@@ -13,7 +13,7 @@ const Store = () => {
 
         <main>
           <div className="flex flex-col items-center bg-black text-white">
-            <p>🚧 🚧 🚧 Under construction, coming soon with new merch, vinyls, etc! 🚧 🚧 🚧</p>
+            <p>🚧 🚧 🚧 Under construction, coming soon with new merch, vinyls, etc. (and possibly our own brand of unisex underwear) 🚧 🚧 🚧</p>
           </div>
           <Footer />
         </main>

@@ -27,7 +27,7 @@ const MeetTheBand = () => {
       <main>
         {/* All NewsElements go in here! */}
         <div className="flex flex-col y-space-4">
-          <BandElement title="WHISSKER" text="Glasgow-based indie/sharp alt-rock band..." />
+          <BandElement title="WHISSKER" text="Glasgow-based indie/sharp alt-rock band with diverse musical influences that result in a unique and somewhat experimental sound with an electrifying live atmosphere. Be sure to sheck us out at one of our gigs to see one of Glasgow's most creative up-and-coming bands!" />
         </div>
         <Footer />
       </main>

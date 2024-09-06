@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import NewsElement from '@/components/NewsElement';
 import Head from 'next/head';
+import Image from 'next/image';
 
 const News = () => {
   return (
@@ -25,9 +26,13 @@ const News = () => {
       </header>
 
       <main>
+        
         {/* All NewsElements go in here! */}
         <div className="flex flex-col y-space-4">
-          <NewsElement title="Above average sized things coming!" date="September 6th" text="Be sure to be at our SWG3 gig this Friday to be the first to hear the news!" />
+          <div className="flex flex-col items-center">
+            <Image src="/news/cover.JPG" width={204.8*2} height={204.8*2} alt="Moonbreak" className="flex flex-col items-center"/>
+          </div>
+          <NewsElement title="SINGLE ANNOUNCEMENT!!!" date="September 13th" text="We are beyong apathetic to be announcing our first ever single Moonbreak to be released September 13th on all major music platforms! Be sure to pre-save and give it a listen when it comes out!"/>
         </div>
 
         <Footer />

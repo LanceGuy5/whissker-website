@@ -7,16 +7,17 @@ const versionString = "v1.1.0";
 const Footer = () => {
   return (
     <>
-      <div className="p-5 mt-5 bg-footer-dark flex flex-col items-center w-full">
-        <div className="social-media-icons mb-4 flex space-x-8">
-          <Link href="/">
-            <Image 
+      <div className="p-5 mt-5 bg-footer-dark flex flex-col items-center w-full space-y-4">
+        <Link href="/">
+          <Image 
               src="/footer/house-icon.png" 
               className="transition-opacity duration-300 opacity-25 hover:opacity-75" 
               alt="Whissker" 
-              width={contactPNGSize} 
-              height={contactPNGSize} />
+              width={contactPNGSize*2} 
+              height={contactPNGSize*2} />
           </Link>
+        <div className="social-media-icons mb-4 flex space-x-8">
+          
           <Link href="https://www.instagram.com/whissker_band?igsh=MzBiN3hqbmdobzAx" target="_blank" rel="noopener noreferrer">
             <Image 
               src="/footer/instagram-icon.png" 
