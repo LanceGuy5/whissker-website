@@ -3,12 +3,13 @@ import Header from '@/components/Header';
 import BandElement from '@/components/BandElement';
 import Head from 'next/head';
 import React from 'react';
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
 const MeetTheBand = () => {
   return (
     <>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charSet="UTF-8" />
         <meta name="description" content="Official website of the band Whissker" />
         <meta name="mobile-web-app-capable" content="yes" />

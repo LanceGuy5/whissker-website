@@ -8,7 +8,7 @@ export default function Home() {
   return (
       <>
         <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta charSet="UTF-8" />
           <meta name="description" content="Official website of the band Whissker" />
           <meta name="mobile-web-app-capable" content="yes" />
@@ -21,7 +21,9 @@ export default function Home() {
         </Head> 
 
         <header className="flex flex-col items-center bg-black text-white">
-          <Header text="WHISSKER" />
+          <div className="textC">
+          <Header text="WHISSKER"/>
+          </div>
         </header>
 
           <main>

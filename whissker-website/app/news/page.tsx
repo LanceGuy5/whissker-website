@@ -4,6 +4,8 @@ import Footer from '@/components/Footer';
 import NewsElement from '@/components/NewsElement';
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
 const News = () => {
   return (
@@ -32,7 +34,12 @@ const News = () => {
           <div className="flex flex-col items-center">
             <Image src="/news/cover.JPG" width={204.8*2} height={204.8*2} alt="Moonbreak" className="flex flex-col items-center"/>
           </div>
-          <NewsElement title="SINGLE ANNOUNCEMENT!!!" date="September 13th" text="We are beyong apathetic to be announcing our first ever single Moonbreak to be released September 13th on all major music platforms! Be sure to pre-save and give it a listen when it comes out!"/>
+          <div className="link">
+            <Link href={"https://linktr.ee/whissker?fbclid=PAZXh0bgNhZW0CMTEAAaba_qccegyTDrtW5YS-tyWEjoQv4Adkn34cWbnUZnQlJt7mn5QAYyK5siE_aem_MW5vdJjnvXyHMlvQ5MeLYg"}>
+            <h2>Pre-Save Moonbreak Here</h2>
+            </Link>
+          </div>
+          <NewsElement title="FIRST SINGLE!!" date="September 13th" text="We are beyong contented to be announcing our first ever single Moonbreak to be released September 13th on all major music platforms! Be sure to pre-save using the link above and give it a listen when it comes out!"/>
         </div>
 
         <Footer />

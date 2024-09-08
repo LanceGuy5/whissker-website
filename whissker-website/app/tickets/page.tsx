@@ -30,21 +30,18 @@ const Tickets = () => {
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="format-detection" content="telephone=no" />
         <Header text="GIGS/TICKETS" />
-        <div className="link">
-        <Link href={"https://linktr.ee/whissker?fbclid=PAZXh0bgNhZW0CMTEAAaba_qccegyTDrtW5YS-tyWEjoQv4Adkn34cWbnUZnQlJt7mn5QAYyK5siE_aem_MW5vdJjnvXyHMlvQ5MeLYg"}>
-          <h2>Purchase Tickets Here</h2>
-        </Link>
-        </div>
+        
 
       </header>
 
       <main>
         {/* All TicketsElements go in here! */}
         <div className="flex flex-col y-space-4">
-          <TicketsElement 
-            title="SWG3 Poetry Club" 
-            date="September 6th" 
-            details="We will be sharing the stage with Discola and Static Sky this Friday at the Poetry Club in the historic SWG3 venue in Glasgow. Get your tickets using the link above to make sure you don't miss out on being one of the first to hear our medium-sized announcement! We are beyond contented to be sharing this with you and we hope to see you there!"/>
+          <div className="link">
+          <Link href={"https://linktr.ee/whissker?fbclid=PAZXh0bgNhZW0CMTEAAaba_qccegyTDrtW5YS-tyWEjoQv4Adkn34cWbnUZnQlJt7mn5QAYyK5siE_aem_MW5vdJjnvXyHMlvQ5MeLYg"}>
+            <h2>Purchase Tickets Here</h2>
+          </Link>
+          </div>
             <TicketsElement
             title="TBA"
             date="TBA"
